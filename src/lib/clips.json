@@ -1,0 +1,126 @@
+[
+  {
+    "id": "01-ai-overwhelm",
+    "number": "01",
+    "title": "Get comfortable with AI",
+    "label": "Start here",
+    "takeaway": "Build understanding before adding another tool.",
+    "practice": "Which part of your work feels hardest to start? Choose one task you can describe in a sentence.",
+    "duration": 53,
+    "video": "/clips/01-ai-overwhelm.mp4",
+    "poster": "/posters/01-ai-overwhelm.webp",
+    "captions": "/captions/01-ai-overwhelm.vtt",
+    "sourceStart": 360.42,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        360.42,
+        413.84
+      ]
+    ]
+  },
+  {
+    "id": "02-retrieval-before-generation",
+    "number": "02",
+    "title": "Find the right information first",
+    "label": "The foundations",
+    "takeaway": "A model cannot use information it cannot find.",
+    "practice": "Choose one task. List the files it needs and where each one lives.",
+    "duration": 39,
+    "video": "/clips/02-retrieval-before-generation.mp4",
+    "poster": "/posters/02-retrieval-before-generation.webp",
+    "captions": "/captions/02-retrieval-before-generation.vtt",
+    "sourceStart": 1961.4,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        1961.4,
+        2000.58
+      ]
+    ]
+  },
+  {
+    "id": "03-goal-plus-context",
+    "number": "03",
+    "title": "Give AI a job and a reason",
+    "label": "Better instructions",
+    "takeaway": "Say what you want to make and why it matters.",
+    "practice": "Write one instruction with three parts: the information to use, the result you need, and who it is for.",
+    "duration": 65,
+    "video": "/clips/03-goal-plus-context.mp4",
+    "poster": "/posters/03-goal-plus-context.webp",
+    "captions": "/captions/03-goal-plus-context.vtt",
+    "sourceStart": 3189.7,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        3189.7,
+        3254.3
+      ]
+    ]
+  },
+  {
+    "id": "04-prompts-to-pipelines",
+    "number": "04",
+    "title": "Turn repeated prompts into a workflow",
+    "label": "A better way to work",
+    "takeaway": "A sequence you repeat can become a repeatable process.",
+    "practice": "Write down three prompts you use together. What result should each step pass to the next?",
+    "duration": 20,
+    "video": "/clips/04-prompts-to-pipelines.mp4",
+    "poster": "/posters/04-prompts-to-pipelines.webp",
+    "captions": "/captions/04-prompts-to-pipelines.vtt",
+    "sourceStart": 4076.05,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        4076.05,
+        4095.55
+      ]
+    ]
+  },
+  {
+    "id": "05-check-the-ai-model",
+    "number": "05",
+    "title": "Check what AI thinks matters",
+    "label": "Use your judgment",
+    "takeaway": "Review the categories before asking AI to generate.",
+    "practice": "Look at a set of AI suggestions. Pick one to keep and one to remove. Explain why.",
+    "duration": 80,
+    "video": "/clips/05-check-the-ai-model.mp4",
+    "poster": "/posters/05-check-the-ai-model.webp",
+    "captions": "/captions/05-check-the-ai-model.vtt",
+    "sourceStart": 4412.95,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        4412.95,
+        4493.32
+      ]
+    ]
+  },
+  {
+    "id": "06-women-who-build",
+    "number": "06",
+    "title": "Learn by building, together",
+    "label": "Learning in public",
+    "takeaway": "Nicole shares the purpose of the workshop: helping women build with AI.",
+    "practice": "Choose a small project you can build with someone else. What would you like to learn by making it?",
+    "duration": 36,
+    "video": "/clips/06-women-who-build.mp4",
+    "poster": "/posters/06-women-who-build.webp",
+    "captions": "/captions/06-women-who-build.vtt",
+    "sourceStart": 6628.6,
+    "sourceUrl": "https://www.youtube.com/watch?v=0DvOP8moyME",
+    "sourceRanges": [
+      [
+        6628.6,
+        6639.32
+      ],
+      [
+        6643.44,
+        6669.02
+      ]
+    ]
+  }
+]

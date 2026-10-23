@@ -1,0 +1,27 @@
+{
+  "name": "clipping-academy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "imports": { "#lib/*": "./src/lib/*" },
+  "scripts": {
+    "dev": "vite dev --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "test": "node --test scripts/content.test.js",
+    "verify:live": "node scripts/verify-live.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "latest"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "4.0.0",
+    "@sveltejs/kit": "3.1.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "svelte": "5.57.2",
+    "svelte-check": "latest",
+    "typescript": "latest",
+    "vite": "8.3.5"
+  }
+}

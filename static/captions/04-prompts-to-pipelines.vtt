@@ -1,0 +1,45 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:01.910
+But once we put a system
+
+2
+00:00:01.910 --> 00:00:04.520
+together, we ideally don't want a
+
+3
+00:00:04.520 --> 00:00:07.160
+human doing five, 10, 15 prompts
+
+4
+00:00:07.160 --> 00:00:07.830
+in a row.
+
+5
+00:00:07.830 --> 00:00:09.430
+We then turn that into like
+
+6
+00:00:09.430 --> 00:00:11.410
+a little bit of a pipeline.
+
+7
+00:00:11.910 --> 00:00:13.110
+And so that can be either
+
+8
+00:00:13.110 --> 00:00:14.910
+a workflow or it could be
+
+9
+00:00:14.910 --> 00:00:17.070
+like a full blown agent.
+
+10
+00:00:17.070 --> 00:00:18.310
+But that's the goal of what
+
+11
+00:00:18.310 --> 00:00:19.500
+we're trying to work to.
