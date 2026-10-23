@@ -1,5 +1,7 @@
 # Clipping Academy
 
+Live: https://clipping-academy.netlify.app
+
 Six short lessons from **Reversing the AI Gender Gap**, a live workshop from The New Business School with Jai, featuring Jai Bhagat and Nicole Mercede.
 
 Built with Svelte 5, SvelteKit 3, and static rendering. Hosted on Netlify. The MP4s, captions, and poster images are included in the repository so the deployed collection does not depend on a private Drive link or a local server.
@@ -23,7 +25,7 @@ netlify deploy --prod --dir=build --no-build
 npm run verify:live
 ```
 
-Netlify uses the build and publish settings in `netlify.toml`. GitHub Actions checks types, content integrity, and the production build. Each lesson has a stable `/watch/<lesson-id>/` URL, a downloadable MP4, English WebVTT captions, and a link to its original workshop timestamp. Videos are requested only when a viewer opens a lesson; the collection page loads lightweight poster images.
+Push to `main` to deploy. Netlify is connected to the GitHub repository with a read-only deploy key and a push/PR webhook. It uses the build and publish settings in `netlify.toml`. GitHub Actions also checks types, content integrity, and the production build. Each lesson has a stable `/watch/<lesson-id>/` URL, a downloadable MP4, English WebVTT captions, and a link to its original workshop timestamp. Videos are requested only when a viewer opens a lesson; the collection page loads lightweight poster images.
 
 ## How the clips were made
 

@@ -1,0 +1,37 @@
+{
+  "site": "https://clipping-academy.netlify.app",
+  "repository": "https://github.com/ChaiWithJai/clipping-academy",
+  "verified_on": "2026-10-23",
+  "acceptance_e2e": {
+    "browser": "BrowserOS neo / Chromium",
+    "desktop_layout_reviewed": true,
+    "mobile_viewport": { "width": 390, "height": 844 },
+    "mobile_horizontal_overflow": false,
+    "broken_images": 0,
+    "all_six_public_videos_play": true,
+    "media_errors": 0,
+    "durations_seconds": [53.433008, 39.2, 64.6, 19.5, 80.4, 36.333008]
+  },
+  "integration": {
+    "command": "npm run verify:live",
+    "all_six_lesson_pages_http_200": true,
+    "all_six_video_range_requests_http_206": true,
+    "all_six_video_signatures_are_mp4": true,
+    "all_six_captions_are_served_as_webvtt": true,
+    "github_webhook_active": true,
+    "netlify_repository_deploy_key_read_only": true
+  },
+  "unit_data_flow": {
+    "command": "npm test",
+    "tests_passed": 3,
+    "tests_failed": 0,
+    "checks": ["Six unique complete lessons", "Video, poster and caption integrity", "Readable duration formatting"]
+  },
+  "svelte": {
+    "mcp_autofixer_issues": 0,
+    "svelte_check_errors": 0,
+    "svelte_check_warnings": 0,
+    "production_build": "passed"
+  },
+  "limits": ["Browser playback was checked at entry rather than manually watching every second again. The source clips were already decoded and visually reviewed during editing.", "The instructional review estimates clarity and cognitive load; learner outcomes have not been measured."]
+}
