@@ -12,6 +12,7 @@
   <meta property="og:description" content="Real questions. Practical AI. Short lessons from The New Business School with Jai." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/social-card.jpg" />
+  <link rel="canonical" href="https://clipping-academy.netlify.app/" />
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 

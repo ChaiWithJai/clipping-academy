@@ -1,0 +1,786 @@
+{
+  "content_id": "clipping-academy-001",
+  "schema_version": "1.0",
+  "source_content_type": "lesson_collection",
+  "audience": [
+    "Dev",
+    "Nicole",
+    "new Maven visitors"
+  ],
+  "scope": "A self-directed clip library, not a complete course or certification.",
+  "objectives": [
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_001",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "Build understanding before adding another tool.",
+      "observable_behavior": "Given the clip and a familiar work task, names one task and one source of overwhelm without assuming engineering knowledge.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    },
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_002",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "A model cannot use information it cannot find.",
+      "observable_behavior": "Given the clip and a familiar work task, names the information a task needs and where to find it.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    },
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_003",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "Say what you want to make and why it matters.",
+      "observable_behavior": "Given the clip and a familiar work task, specifies source information, a concrete output, and the audience or reason.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    },
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_004",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "A sequence you repeat can become a repeatable process.",
+      "observable_behavior": "Given the clip and a familiar work task, lists steps in a sequence and the result passed between them.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    },
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_005",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "Review the categories before asking AI to generate.",
+      "observable_behavior": "Given the clip and a familiar work task, explains one inclusion and one exclusion using task relevance.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    },
+    {
+      "label": "LEARNING_OBJECTIVE",
+      "id": "obj_006",
+      "verb": "apply",
+      "bloom_level": 3,
+      "content": "Nicole shares the purpose of the workshop: helping women build with AI.",
+      "observable_behavior": "Given the clip and a familiar work task, chooses a small joint project and names one learning goal.",
+      "assessment_method": "optional self-reflection prompt",
+      "prerequisite_ids": [],
+      "domain": "intellectual_skills",
+      "confidence": "inferred"
+    }
+  ],
+  "concepts": [
+    {
+      "label": "CONCEPT",
+      "id": "concept_001",
+      "name": "Get comfortable with AI",
+      "definition": "Build understanding before adding another tool.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_001"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    },
+    {
+      "label": "CONCEPT",
+      "id": "concept_002",
+      "name": "Find the right information first",
+      "definition": "A model cannot use information it cannot find.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_002"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    },
+    {
+      "label": "CONCEPT",
+      "id": "concept_003",
+      "name": "Give AI a job and a reason",
+      "definition": "Say what you want to make and why it matters.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_003"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    },
+    {
+      "label": "CONCEPT",
+      "id": "concept_004",
+      "name": "Turn repeated prompts into a workflow",
+      "definition": "A sequence you repeat can become a repeatable process.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_004"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    },
+    {
+      "label": "CONCEPT",
+      "id": "concept_005",
+      "name": "Check what AI thinks matters",
+      "definition": "Review the categories before asking AI to generate.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_005"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    },
+    {
+      "label": "CONCEPT",
+      "id": "concept_006",
+      "name": "Learn by building, together",
+      "definition": "Nicole shares the purpose of the workshop: helping women build with AI.",
+      "prerequisite_concepts": [],
+      "common_misconceptions": [
+        "misc_006"
+      ],
+      "cognitive_load_estimate": 0.35,
+      "domain": "intellectual_skills"
+    }
+  ],
+  "skills": [
+    {
+      "label": "SKILL",
+      "id": "skill_001",
+      "name": "Get comfortable with AI",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Names one task and one source of overwhelm without assuming engineering knowledge.",
+      "performance_standard": "Names one task and one source of overwhelm without assuming engineering knowledge.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    },
+    {
+      "label": "SKILL",
+      "id": "skill_002",
+      "name": "Find the right information first",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Names the information a task needs and where to find it.",
+      "performance_standard": "Names the information a task needs and where to find it.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    },
+    {
+      "label": "SKILL",
+      "id": "skill_003",
+      "name": "Give AI a job and a reason",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Specifies source information, a concrete output, and the audience or reason.",
+      "performance_standard": "Specifies source information, a concrete output, and the audience or reason.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    },
+    {
+      "label": "SKILL",
+      "id": "skill_004",
+      "name": "Turn repeated prompts into a workflow",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Lists steps in a sequence and the result passed between them.",
+      "performance_standard": "Lists steps in a sequence and the result passed between them.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    },
+    {
+      "label": "SKILL",
+      "id": "skill_005",
+      "name": "Check what AI thinks matters",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Explains one inclusion and one exclusion using task relevance.",
+      "performance_standard": "Explains one inclusion and one exclusion using task relevance.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    },
+    {
+      "label": "SKILL",
+      "id": "skill_006",
+      "name": "Learn by building, together",
+      "verb_phrase": "apply the lesson to a familiar task",
+      "observable_behavior": "Chooses a small joint project and names one learning goal.",
+      "performance_standard": "Chooses a small joint project and names one learning goal.",
+      "conditions": "Given one clip and the optional practice prompt",
+      "sub_skills": [],
+      "practice_required": "One small attempt, followed by self-reflection; no mastery claim",
+      "domain": "intellectual_skills",
+      "difficulty_level": "guided"
+    }
+  ],
+  "misconceptions": [
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_001",
+      "concept_id": "concept_001",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Which part of your work feels hardest to start? Choose one task you can describe in a sentence.",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    },
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_002",
+      "concept_id": "concept_002",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Choose one task. List the files it needs and where each one lives.",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    },
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_003",
+      "concept_id": "concept_003",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Write one instruction with three parts: the information to use, the result you need, and who it is for.",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    },
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_004",
+      "concept_id": "concept_004",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Write down three prompts you use together. What result should each step pass to the next?",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    },
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_005",
+      "concept_id": "concept_005",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Look at a set of AI suggestions. Pick one to keep and one to remove. Explain why.",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    },
+    {
+      "label": "MISCONCEPTION",
+      "id": "misc_006",
+      "concept_id": "concept_006",
+      "incorrect_belief": "Watching alone proves I can apply this lesson.",
+      "why_wrong": "Application requires using the idea in a real situation.",
+      "diagnostic_question": "Choose a small project you can build with someone else. What would you like to learn by making it?",
+      "correct_mental_model": "Try one small action and check its result.",
+      "correction_strategy": "optional work-based practice"
+    }
+  ],
+  "assessments": [
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_001",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_001"
+      ],
+      "prompt": "Which part of your work feels hardest to start? Choose one task you can describe in a sentence.",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Names one task and one source of overwhelm without assuming engineering knowledge."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    },
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_002",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_002"
+      ],
+      "prompt": "Choose one task. List the files it needs and where each one lives.",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Names the information a task needs and where to find it."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    },
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_003",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_003"
+      ],
+      "prompt": "Write one instruction with three parts: the information to use, the result you need, and who it is for.",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Specifies source information, a concrete output, and the audience or reason."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    },
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_004",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_004"
+      ],
+      "prompt": "Write down three prompts you use together. What result should each step pass to the next?",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Lists steps in a sequence and the result passed between them."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    },
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_005",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_005"
+      ],
+      "prompt": "Look at a set of AI suggestions. Pick one to keep and one to remove. Explain why.",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Explains one inclusion and one exclusion using task relevance."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    },
+    {
+      "label": "ASSESSMENT_ITEM",
+      "id": "assess_006",
+      "type": "performance_task",
+      "objective_ids": [
+        "obj_006"
+      ],
+      "prompt": "Choose a small project you can build with someone else. What would you like to learn by making it?",
+      "rubric": {
+        "levels": [
+          {
+            "level": 1,
+            "name": "Emerging",
+            "description": "No specific work example named."
+          },
+          {
+            "level": 2,
+            "name": "Developing",
+            "description": "Example named but the lesson is not yet applied."
+          },
+          {
+            "level": 3,
+            "name": "Proficient",
+            "description": "Chooses a small joint project and names one learning goal."
+          },
+          {
+            "level": 4,
+            "name": "Advanced",
+            "description": "Applies the same principle in a second context and explains the change."
+          }
+        ],
+        "target_level": 3
+      },
+      "alignment_score": 0.85,
+      "common_errors": [
+        "Keeping the task too broad",
+        "Skipping the reason behind the choice"
+      ]
+    }
+  ],
+  "transfer_contexts": [
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_001_near",
+      "skill_id": "skill_001",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Which part of your work feels hardest to start? Choose one task you can describe in a sentence.",
+      "success_criteria": "Names one task and one source of overwhelm without assuming engineering knowledge."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_001_medium",
+      "skill_id": "skill_001",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Which part of your work feels hardest to start? Choose one task you can describe in a sentence.",
+      "success_criteria": "Names one task and one source of overwhelm without assuming engineering knowledge."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_002_near",
+      "skill_id": "skill_002",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Choose one task. List the files it needs and where each one lives.",
+      "success_criteria": "Names the information a task needs and where to find it."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_002_medium",
+      "skill_id": "skill_002",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Choose one task. List the files it needs and where each one lives.",
+      "success_criteria": "Names the information a task needs and where to find it."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_003_near",
+      "skill_id": "skill_003",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Write one instruction with three parts: the information to use, the result you need, and who it is for.",
+      "success_criteria": "Specifies source information, a concrete output, and the audience or reason."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_003_medium",
+      "skill_id": "skill_003",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Write one instruction with three parts: the information to use, the result you need, and who it is for.",
+      "success_criteria": "Specifies source information, a concrete output, and the audience or reason."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_004_near",
+      "skill_id": "skill_004",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Write down three prompts you use together. What result should each step pass to the next?",
+      "success_criteria": "Lists steps in a sequence and the result passed between them."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_004_medium",
+      "skill_id": "skill_004",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Write down three prompts you use together. What result should each step pass to the next?",
+      "success_criteria": "Lists steps in a sequence and the result passed between them."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_005_near",
+      "skill_id": "skill_005",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Look at a set of AI suggestions. Pick one to keep and one to remove. Explain why.",
+      "success_criteria": "Explains one inclusion and one exclusion using task relevance."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_005_medium",
+      "skill_id": "skill_005",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Look at a set of AI suggestions. Pick one to keep and one to remove. Explain why.",
+      "success_criteria": "Explains one inclusion and one exclusion using task relevance."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_006_near",
+      "skill_id": "skill_006",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A familiar personal project",
+      "distance": "near",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Choose a small project you can build with someone else. What would you like to learn by making it?",
+      "success_criteria": "Chooses a small joint project and names one learning goal."
+    },
+    {
+      "label": "TRANSFER_CONTEXT",
+      "id": "transfer_006_medium",
+      "skill_id": "skill_006",
+      "learned_context": "The live workshop example",
+      "transfer_context": "A task in a team or a different business",
+      "distance": "medium",
+      "adaptation_required": [
+        "Replace the workshop example with the audience, information, and task from the new context."
+      ],
+      "scenario_prompt": "Choose a small project you can build with someone else. What would you like to learn by making it?",
+      "success_criteria": "Chooses a small joint project and names one learning goal."
+    }
+  ],
+  "cognitive_load": [
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "01-ai-overwhelm",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    },
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "02-retrieval-before-generation",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    },
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "03-goal-plus-context",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    },
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "04-prompts-to-pipelines",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    },
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "05-check-the-ai-model",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    },
+    {
+      "label": "COGNITIVE_LOAD",
+      "module_id": "06-women-who-build",
+      "intrinsic_load": 0.35,
+      "extraneous_load": 0.1,
+      "germane_load": 0.3,
+      "total_load": 0.45,
+      "warning_flags": [],
+      "recommendations": [
+        "One takeaway per clip; optional practice is collapsed by default."
+      ],
+      "method": "Design estimate, not measured learner performance"
+    }
+  ],
+  "prerequisite_graph": {
+    "nodes": [
+      "concept_001",
+      "concept_002",
+      "concept_003",
+      "concept_004",
+      "concept_005",
+      "concept_006"
+    ],
+    "edges": []
+  }
+}

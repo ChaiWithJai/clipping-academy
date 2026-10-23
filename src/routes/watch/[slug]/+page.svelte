@@ -12,6 +12,7 @@
   <meta property="og:title" content={data.clip.title} />
   <meta property="og:description" content={data.clip.takeaway} />
   <meta property="og:image" content="/social-card.jpg" />
+  <link rel="canonical" href={`https://clipping-academy.netlify.app/watch/${data.clip.id}/`} />
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 

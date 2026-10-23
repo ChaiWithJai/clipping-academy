@@ -1,0 +1,31 @@
+{
+  "scope": "A self-directed clip library, not a complete course or certification.",
+  "validation": {
+    "unique_ids": true,
+    "prerequisite_cycles": 0,
+    "missing_references": 0,
+    "objective_assessment_coverage": 1,
+    "overloaded_modules": 0,
+    "sequencing": "Independent clips. No ordered-course completion promise.",
+    "critical_gaps": []
+  },
+  "semantic_review": {
+    "scores": {
+      "objective_clarity": 0.9,
+      "prerequisite_validity": 0.9,
+      "cognitive_load_balance": 0.9,
+      "assessment_alignment": 0.8,
+      "transfer_potential": 0.75,
+      "dignity_preservation": 0.8
+    },
+    "weighted_score": 0.843,
+    "threshold": 0.7,
+    "passed": true,
+    "method": "Agent design review against the supplied CDF rubric; not an independent learner study.",
+    "limits": [
+      "Transfer has not been tested with learners.",
+      "The original goal-and-context clip includes blunt language; surrounding site copy avoids judging learner ability.",
+      "Practice is optional self-reflection, not a scored assessment."
+    ]
+  }
+}

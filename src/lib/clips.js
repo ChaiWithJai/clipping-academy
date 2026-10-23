@@ -1,4 +1,4 @@
-import clips from './clips.json';
+import clips from './clips.json' with { type: 'json' };
 
 export { clips };
 export const sourceUrl = 'https://www.youtube.com/watch?v=0DvOP8moyME';
